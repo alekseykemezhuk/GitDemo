@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     // MARK: - Properties
     private var button = UIButton(configuration: .gray())
+    
     // MARK: - VC Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,7 @@ class ViewController: UIViewController {
     // MARK: - Flow Methods
     private func setupUI() {
         view.addSubview(button)
-        button.setTitle("Hello!", for: .normal)
+        button.setTitle("I'm good!", for: .normal)
         button.snp.makeConstraints { make in
             make.center.equalToSuperview()
         }
