@@ -24,6 +24,9 @@ class ViewController: UIViewController {
     private func setupUI() {
         view.addSubview(button)
         button.setTitle("I'm good!", for: .normal)
+        button.addAction(UIAction(handler: { _ in
+            print("action")
+        }) , for: .touchUpInside)
         button.snp.makeConstraints { make in
             make.center.equalToSuperview()
         }
