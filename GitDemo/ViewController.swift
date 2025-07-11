@@ -11,8 +11,7 @@ import SnapKit
 class ViewController: UIViewController {
     
     // MARK: - Properties
-    private var button = UIButton(configuration: .filled())
-
+    private var button = UIButton(configuration: .gray())
     // MARK: - VC Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
