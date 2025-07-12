@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     private func setupUI() {
         view.addSubview(button)
         view.addSubview(secondButton)
-        button.setTitle("I'm good!", for: .normal)
+        button.setTitle("I'm sooo good!", for: .normal)
         button.addAction(UIAction(handler: { _ in
             print("action")
         }) , for: .touchUpInside)
