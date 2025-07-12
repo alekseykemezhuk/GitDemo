@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         button.snp.makeConstraints { make in
             make.center.equalToSuperview()
         }
-        secondButton.setTitle("Thank You!", for: .normal)
+        secondButton.setTitle("Thank You very much!", for: .normal)
         secondButton.addAction(UIAction(handler: { _ in
             print("action")
         }) , for: .touchUpInside)
